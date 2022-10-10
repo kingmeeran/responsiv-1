@@ -1,0 +1,40 @@
+
+body{
+    background: rgb(208, 218, 255);
+}
+h1{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px 0 0;
+    position: absolute;
+    top: 10px;
+    left: 42%;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(249, 20, 188);
+}
+.sbox{
+    background: rgb(154, 242, 173);
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 7px 5px   gray;
+    transition: 1s;
+}
+
+.sbox:hover{
+    
+    border-radius: 10px;
+    transform: skew(10deg);
+    transition: 1s;
+}
+i{
+    color: rgb(198, 76, 190);
+}
+
+.cont{
+    margin: 10px 0;
+}
+.box{
+    padding: 60px 5px;
+}
